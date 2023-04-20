@@ -1,0 +1,52 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+ } 
+body{
+    background-image: url("C:/Users/ASUS/Downloads/Images/Download/wallpaper/small_town.jpg");
+}
+ nav{ 
+    background-color: #ccccde; 
+    padding-top: 10px; 
+ } 
+nav a{ 
+    display: inline-block; 
+    text-decoration: none; 
+    color: #000; 
+    margin-left: 10px; 
+} 
+nav a:hover{ 
+    text-decoration: underline; 
+} 
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+#images{
+    list-style-type: none;
+    width: 750px;
+    border: 5px solid #000;
+    padding: 50px;
+    margin: 20px auto;
+    transition: 1s;
+    background-color: rgb(126, 113, 89);
+}
+img{
+    width: 25%;
+    padding: 5px;
+    margin: 15px;
+    border: 2px solid #000;
+}
+img:hover{
+    transform: scale(1.1);
+  }
+button{
+    text-align: center;
+    font-size: 10px;
+    border: solid rgb(1, 2, 2);
+    background-color: rgba(223, 88, 30, 0.659);
+  }
+button:hover{
+    background-color: rgb(7, 189, 255);
+  }
